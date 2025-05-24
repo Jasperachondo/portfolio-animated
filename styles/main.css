@@ -2,3 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+#webTitle, #startBtn {
+    font-family: "Bowlby One", sans-serif;
+}
+
+#subTitleAnimated {
+    font-family: "Antic Slab", serif;
+}

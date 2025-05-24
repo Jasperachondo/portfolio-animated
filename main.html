@@ -7,19 +7,23 @@
 
         <link rel="stylesheet" href="styles/main.css">
         <link rel="icon" sizes="48x48" href="img/favicon.png">
-        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./src/output.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="bg-[url(/img/bg.jpg)]"> <!--Web BG-->
         
         <!--Front Page-->
-        <div id="container">
-            <!--Web BG-->
-            <img src="img/bg.jpg" alt="Website Cover" id="webCover" class="bg-cover">
-            <div id="webTitle">
-                <h1>Aprendiz</h1>
-                <button id="startBtn">
-                    <h2>Start</h2>
-                </button>
+        <div id="container" class="flex min-h-screen items-center justify-center text-center">
+            <!--Web Title-->
+            <div id="webTitle" class="text-white">
+                <h1 id="webTitle" class="uppercase text-3xl tracking-widest">Aprendiz</h1>
+                <div id="subTitleAnimated" class="text-sm tracking-wide">
+                    <p>Senior High School</p>
+                    <p>Beginner Programmer</p>
+                    <p>Web Designer</p>
+                </div>
+                <button id="startBtn" class="uppercase w-22 text-sm tracking-widest bg-[#0977F4] rounded-full h-8">Start</button>
             </div>
         </div>
 
