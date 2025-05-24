@@ -3,10 +3,20 @@
     padding: 0;
 }
 
-#webTitle, #startBtn {
+#personalTitle, #startBtn {
     font-family: "Bowlby One", sans-serif;
+}
+
+#startBtn {
+    filter: drop-shadow(0 2px 2px #000D1B);
+    box-shadow: inset 0 -2px 2px #0044A9;
+    margin-top: 60px;
 }
 
 #subTitleAnimated {
     font-family: "Antic Slab", serif;
+    background: linear-gradient(to right, #89D1FF, #EAEAEA);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
 }
