@@ -9,19 +9,22 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="icon" sizes="48x48" href="img/favicon.png">
         <link rel="stylesheet" href="./src/output.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body class="bg-[url(/img/bg.jpg)]"> <!--Web BG-->
         
         <!--About Page-->
         <div id="container">
-            <header id="header">
-                <nav id="navBar">
-                    <i class="fa-solid fa-house text-white"></i>
-                    <img src="img/favicon.png" alt="Website Logo">
-                    <i class="fa-solid fa-list-check text-white"></i>
+            <header id="header" class="flex flex-col items-center">
+                <nav class="flex items-center gap-[20px] bg-white/10 rounded-3xl my-5 px-4">
+                    <a href="about.html" class="text-white text-sm tracking-wide"><i class="fa-solid fa-house"></i>Home</a>
+                    <img src="img/favicon.png" alt="Website Logo" class="w-[40px] h-[35px]">
+                    <a href="#" class="text-white text-sm tracking-wide"><i class="fa-solid fa-list-check"></i>Projects</a>
                 </nav>
                 <!--Profile-->
-                <img src="img/profile.jpg" alt="Profile of Author" class="rounded-full">
+                <div id="profile">
+                    <img id="me" src="img/profile.jpg" alt="Profile of Author" class="rounded-full w-[100px] h-[100px]">
+                </div>
             </header>
         </div>
 
