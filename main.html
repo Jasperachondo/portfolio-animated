@@ -14,17 +14,19 @@
     <body class="bg-[url(/img/bg.jpg)]"> <!--Web BG-->
         
         <!--Front Page-->
-        <div id="container" class="flex min-h-screen items-center justify-center text-center text-white">
-            <!--Web Title-->
-            <div id="webTitleAnimate">
-                <h1 title="Website Title" id="personalTitle" class="uppercase text-3xl tracking-widest">Aprendiz</h1>
-                <div id="subTitleAnimated" class="text-sm tracking-wide">
-                    <p id="shs">Senior High School</p>
-                    <p id="bp">Beginner Programmer</p>
-                    <p id="wd">Web Designer</p>
+        <div id="container" class="flex flex-col items-center justify-center text-center min-h-screen">
+            <section id="body" class="text-white">
+                <div id="titleAnimate">
+                    <h1 title="Website Title" id="webTitle" class="uppercase text-3xl tracking-widest">Aprendiz</h1>
+                    <!--Animation-->
+                    <div id="animation" class="text-sm tracking-wide">
+                        <p>Senior High School</p>
+                        <p>Beginner Programmer</p>
+                        <p>Web Designer</p>
+                    </div>
                 </div>
-                <button title="Start" id="startBtn" class="uppercase w-22 text-sm tracking-widest bg-[#0977F4] rounded-full h-8">Start</button>
-            </div>
+                <button title="Start" id="startBtn" class="uppercase px-4 py-2 text-sm tracking-widest bg-white/20 rounded-full text mt-16" style="filter: drop-shadow(0 2px 2px #000000); box-shadow: inset 0 -2px 2px #606060;" >Start</button>
+            </section>
         </div>
 
     </body>
