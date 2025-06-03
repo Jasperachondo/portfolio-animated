@@ -1,20 +1,6 @@
-#webTitle, #startBtn {
-    font-family: "Bowlby One", sans-serif;
-}
-
 #animation {
-    font-family: "Antic Slab", serif;
     background: linear-gradient(to right, #89D1FF, #EAEAEA);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: none;
-}
-
-/*About Page*/
-#navBar {
-    font-family: "Roboto", sans-serif;
-}
-
-#webTag {
-    font-family: "Bowlby One", sans-serif;
 }
