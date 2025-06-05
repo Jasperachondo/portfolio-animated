@@ -2,5 +2,21 @@
     background: linear-gradient(to right, #89D1FF, #EAEAEA);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: none;
+    animation: typing 3s steps(14) 1 forwards, blink 0.75s step-end infinite;
+}
+
+/* Typewriter Keyframes */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 14ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
